@@ -10,7 +10,6 @@
 Stoichiometry refers to the process of determining moles and other measurements of a substance.
 
 \subsection{Balancing}
-
 There must be equal numbers of substances on both sides of a given equation (unless a nuclear reaction is taking place). 
 
 Here is an unbalanced reaction:
@@ -84,9 +83,9 @@ Compounds Containing & \ce{S^2-} & Compounds of \ce{NH4+}, the alkali metal cati
 \begin{description}
 \item[Enthalpy] a thermodynamic quantity equivalent to the total heat content of a system. It is equal to the internal energy of the system plus the product of pressure and volume.
 
-\item[Specific Heat] The amount of Enthalpy required to raise one gram of a substance by 1 degree Kelvin. 
-The amount of heat absorbed by a substance, q, is equal to the product of its specific heat (s), its mass, and its temperature change. $ q = s \times m \times \Delta T $
-
+\item[Specific Heat] The amount of heat required to raise one gram of a substance by 1 degree Kelvin. 
+The amount of heat absorbed by a substance, q, is equal to the product of its specific heat (s), its mass, and its temperature change. $ q = s \times m \times \Delta T $. The higher the specific heat, the harder it is to heat up.
+\item[Heat Capacity] The amount of heat required to raise a certain amount of a substance by 1 degree Kelvin. Find it with $ \text{specific heat} \times \text{grams of substance} $. If you know how much energy you put into a substance, you can also find the specific heat with $ \frac{\text{joules}}{\text{change in temperature}} $
 \item[Joule:] SI unit of work or energy. Equal to the work done by a force of one newton when its point of application moves one meter in the direction of the force.
 \end{description}
 \subsection{Types of Reaction}
@@ -146,6 +145,8 @@ Strong Acids & Strong Bases \\
 \end{tabular}
 \subsection{Conjugate Acids and Bases}
 A \textbf{Conjugate Acid} or \textbf{Conjugate Base} is the salt of the acid or base. For example, the conjugate base of  \ce{H2O} is \ce{OH-}, and the conjugate base of \ce{CH3COOH} can be \ce{CH3OONA}. The important part in the preceding example is the \ce{CH3OO}. Any additional ion will still make it a conjugate base.
+
+In essence, an acid plus its conjugate base or a base plus its conjugate acid will make a buffer. 
 \subsubsection{Buffer}
 A \textbf{buffer} is a solution which resists change in pH. A buffer is able to resist pH change because the two components (conjugate acids and conjugate base) are present in the solution in appreciable amounts. The conjugate base neutralizes any added acid, and the conjugate acid neutralizes any base. Adding more water allows more of the acid or base to dissolve, causing the pH to remain the same. Removing water has the opposite effect, for a net equal pH.
 \subsection{ICE Table}
@@ -187,4 +188,20 @@ Equilibrium & $ 0.020 - x $ & x & x \\
 \end{enumerate}
 \subsection{Titration}
 A \textbf{Titration} is a way to determine the concentration of an unknown acid or base. Simply add a known base (or acid, if you are titrating a base) and graph the pH values as you add it. Eventually, the graph's slope will become very steep. The center of this slope steepness is the point of equilibrium. For strong acids or bases, this equilibrium will be 7. A weak acid or base will be above or below 7, respectively. 
+\section{Entropy and Spontaneous Reactions}
+\subsection{Definitions}
+\begin{description}
+\item[Entropy:] the measure of chaos in the universe. Some reactions may make the entropy in a system decrease, but every reaction increases the total entropy of the universe. 
+\item[Free Energy:] the capacity of a system to do work.
+\end{description}
+\subsection{Spontaneous Reaction Table}
+\begin{tabular}{p{.1\linewidth} p{.1\linewidth} p{.2\linewidth} p{.6\linewidth}}
+$ \Delta \text{H} $ & $ \Delta \text{S} $ & $ \Delta \text{G}  (\Delta \text{H} - \Delta \text{S})$ & Reaction Spontaneity \\
+\hline
+$ - $ & $ + $ & $ - $ & Spontaneous at all temperatures \\
+$ - $ & $ - $ & $ - $ or $ + $ & Spontaneous at temperatures where $ \Delta \text{H} $ outweighs $ \text{T} \Delta \text{S} $ (low temperatures) \\
+$ + $ & $ - $ & $ + $ & Non-spontaneous at all temperatures \\
+
+$ + $ & $ + $ & $ + $ or $ - $ & Spontaneous at temperatures where $ \Delta \text{H} $ outweighs $ \text{T} \Delta \text{S} $ (High temperatures) \\
+\end{tabular}
 \end{document}
