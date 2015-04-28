@@ -1,6 +1,14 @@
 \documentclass[]{article}
 \usepackage{mhchem}
 \usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\hypersetup{
+    colorlinks,
+    linkcolor={red!50!black},
+    citecolor={blue!50!black},
+    urlcolor={blue!80!black}
+}
 \begin{document}
 \title{Advanced Placement Chemistry Study Guide}
 \author{Anthony Super \and Connor Stauder \and Ben Murray}
@@ -78,6 +86,19 @@ Compounds Containing & \ce{S^2-} & Compounds of \ce{NH4+}, the alkali metal cati
 & \ce{OH-} & Compounds of the alkali metal catoins and \ce{NH4+}, \ce{Ca^2+}, \ce{Sr^2+}, and \ce{Ba^2+}\\
 \hline \\
 \end{tabular}
+\section{Equilibrium}
+Equilibrium reactions are often solved with \hyperref[sec:ICE]{ICE Tables.} 
+Take a look at that section.
+\subsection{Definitions}
+\begin{description}
+\item[Equilibrium Reaction:] A reaction where the products are becoming reactants and the reactants are becoming products. \ce{COO + H2 <=> CO + H2O}
+\item[Equilibrium Constant:] Designated as K, it is equal to $ \frac{\text{[Products]}}{\text{[Reactants]}} $. If K is greater than 1, the equilibrium favours the products. If it's less than 1, it favours the reactants. 
+
+\[
+	K_c = \frac{\text{[Product]}^{\text{Coefficient}}}{\text{[Reactant]}^\text{Coefficient}}
+\]
+\item[Equilibrium]: the state in an equilibrium reaction where the processes are occurring at the same rate.
+\end{description}
 \section{Energy and Enthalpy}
 \subsection{Definitions}
 \begin{description}
@@ -151,6 +172,7 @@ In essence, an acid plus its conjugate base or a base plus its conjugate acid wi
 \subsubsection{Buffer}
 A \textbf{buffer} is a solution which resists change in pH. A buffer is able to resist pH change because the two components (conjugate acids and conjugate base) are present in the solution in appreciable amounts. The conjugate base neutralizes any added acid, and the conjugate acid neutralizes any base. Adding more water allows more of the acid or base to dissolve, causing the pH to remain the same. Removing water has the opposite effect, for a net equal pH.
 \subsection{ICE Table}
+\label{sec:ICE}
 Example: What is the pH of a 0.020 M Solution of Hydrosulfuric Acid, a diprotic acid. Remember that this acid releases two protons.
 \begin{enumerate}
 \item 
